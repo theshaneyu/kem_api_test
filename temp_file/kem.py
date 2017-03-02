@@ -4,7 +4,7 @@ class KemMongoCache(object):
     def __init__(self):
         self.uri = 'mongodb://140.120.13.243:4444/'
 
-    def main(slef):
+    def main(self):
 
 
 
