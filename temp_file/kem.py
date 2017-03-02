@@ -6,7 +6,17 @@ class KemMongoCache(object):
         self.db = slef.client['database']
         self.coll = self.db['dataset']
 
+
+    def queryTerm():
+    	result = self.coll.find()
+
+
+
+
+
+
     def main(self):
+
 
 
 
