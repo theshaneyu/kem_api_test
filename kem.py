@@ -3,7 +3,7 @@ import json
 
 
 class KemMongoCache(object):
-    def __init__(self, uri = 'mongodb://140.120.13.243:4444/'):
+    def __init__(self, uri):
         from gensim import models
         from pymongo import MongoClient
         self.client = MongoClient(uri)
@@ -56,8 +56,6 @@ class KemMongoCache(object):
 
 
 
-
-
 if __name__ == '__main__':
-    obj = KemMongoCache()
+    obj = KemMongoCache('mongodb://140.120.13.243:4444/')
     obj.main()
